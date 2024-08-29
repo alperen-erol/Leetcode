@@ -49,6 +49,19 @@
 // Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 // Output: [8,9,9,9,0,0,0,1]
 
+// SOLUTION:
+
+//  var isPalindrome = function(x) {
+//    x=x.toString()
+//  y=(x.length)-1
+//      for(let i=0;i<y;i++,y--){
+//         if(x[i]!==x[y]){
+//            return false
+//         }
+//      }
+//     return true
+//  };
+
 // -----------------------------------------------------------------------------------------
 
 // Given a string s, find the length of the longest
