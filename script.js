@@ -329,3 +329,39 @@
 // };
 
 // -----------------------------------------------------------------------------------------
+
+// 58. Length of Last Word
+// Easy
+// Topics
+// Companies
+// Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+// A word is a maximal
+// substring
+//  consisting of non-space characters only.
+
+// Example 1:
+
+// Input: s = "Hello World"
+// Output: 5
+// Explanation: The last word is "World" with length 5.
+// Example 2:
+
+// Input: s = "   fly me   to   the moon  "
+// Output: 4
+// Explanation: The last word is "moon" with length 4.
+
+//SOLUTION:
+
+//var lengthOfLastWord = function(s) {
+//     let str = s.trim();
+//     let n = str.length;
+//     let count=0;
+//     for(let i=n-1;i>=0;i--){
+//         if(str.charAt(i) == ' '){
+//             return count;
+//         }
+//         count++;
+//     }
+//     return count;
+// };
